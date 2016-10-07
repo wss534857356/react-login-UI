@@ -4,7 +4,7 @@ import App from './App'
 import Login from './Login'
 
 module.exports = (
-  <Route path="/mui/" component={App}>
+  <Route path="/" component={App}>
     <IndexRoute component={Login}/>
   </Route>
   )

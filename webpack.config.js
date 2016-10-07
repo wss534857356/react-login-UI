@@ -2,7 +2,8 @@ module.exports = {
   entry: './index.js',
 
   output: {
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: 'http://localhost:8080/',
   },
 
   module: {

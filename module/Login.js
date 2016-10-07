@@ -49,6 +49,9 @@ export default class Login extends Component {
   handleUpdatePassword(event) {
     const value = event.target.value;
     event.target.value = value.trim();
+    this.setState({
+      password:value.trim(),
+    })
   }
   render(){
     return (
